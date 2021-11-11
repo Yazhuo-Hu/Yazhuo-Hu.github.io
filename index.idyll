@@ -1,0 +1,30 @@
+[meta title:"My Idyll Post IS445 Fall 2021 " description:"Homework 10" /]
+
+[Header
+  fullWidth:true
+  title:"IS445 Idyll Post"
+  subtitle:"Homework 10"
+  author:"Yazhuo Hu"
+  authorLink:"https://github.com/Yazhuo-Hu/Yazhuo-Hu.github.io"
+  date:`(new Date()).toDateString()`
+  background:"#222222"
+  color:"#ffffff"
+   /]
+## Idyll built-in:   Scrolling Overlays
+[Scroller currentStep:scrollerIndex]
+	[Graphic style:`{padding:10}`]
+		[img
+			src:"https://post.greatist.com/wp-content/uploads/sites/2/2019/08/GRT-cereal-1200x628-facebook.jpg"
+			style:`{height:600}`
+		/]
+	[/Graphic]
+
+	[Step]### I find a dataset collects nurition infos about various types cereals which are selling on the market. This dataset is from Kaggle. The original source can be found in the website https://perso.telecom-paristech.fr/eagan/class/igr204/datasets [/Step]
+	[Step]### I tried to use a bar plot below showing the ratings of different cereals. However, the y-axis does not show its scale and label. I tried to edit css file and svg attributes in d3-component json file, but it still not working. [/Step]
+
+[/Scroller]
+
+## d3.js
+
+[barCustomD3Component classNmae:"d3-component" /]
+
